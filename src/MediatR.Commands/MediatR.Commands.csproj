@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>MediatR.Commands</RootNamespace>
+    <PackageId>MediatR.CommandPattern</PackageId>
+    <Authors>Daniel Portugal</Authors>
+    <Company>Daniel Portugal</Company>
+    <Product>MediatR.CommandPattern</Product>
+    <Description>Command pattern for MediatR with result types and validation.</Description>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>ForbiddenResult added.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
